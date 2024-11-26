@@ -1,0 +1,122 @@
+.about-us {
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+    line-height: 1.8;
+    background-color: #f9f9f9;
+  }
+  
+  .about-banner {
+    text-align: center;
+    background: linear-gradient(145deg, #ff80ab, #ff4081);
+    padding: 80px 20px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-banner h1 {
+    font-size: 58px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .about-banner p {
+    font-size: 22px;
+    color: #f5f5f5;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .team-section {
+    text-align: center;
+    margin: 60px 0;
+  }
+  
+  .team-section h2 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .team-member {
+    text-align: center;
+    max-width: 320px;
+    flex: 1 1 250px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ff4081;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member img:hover {
+    transform: scale(1.1);
+  }
+  
+  .team-member h3 {
+    font-size: 26px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 18px;
+    color: #555;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .team-member p:last-child {
+    font-style: italic;
+    color: #777;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .about-banner h1 {
+      font-size: 42px;
+    }
+    
+    .about-banner p {
+      font-size: 18px;
+    }
+  
+    .team-members {
+      gap: 30px;
+    }
+  
+    .team-member {
+      max-width: 280px;
+    }
+  }
+  

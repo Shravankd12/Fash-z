@@ -1,0 +1,121 @@
+/* General Styles */
+.loginsignup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fc;
+  font-family: Arial, sans-serif;
+}
+
+.loginsignup-container {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Input Styles */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+/* Button Styles */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #b0c4de;
+  cursor: not-allowed;
+}
+
+button:hover:enabled {
+  background-color: #0056b3;
+}
+
+/* Message Styles */
+.loginsignup-message {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.loginsignup-message.success {
+  color: green;
+}
+
+.loginsignup-message.error {
+  color: red;
+}
+
+/* Styling for the input fields' placeholder */
+input::placeholder {
+  color: #888;
+}
+
+/* Form Container Styles */
+.loginsignup-container input[type="text"],
+.loginsignup-container input[type="email"],
+.loginsignup-container input[type="password"] {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.loginsignup-container h1 {
+  color: #333;
+}
+
+/* Add space between buttons and inputs */
+button {
+  margin-top: 15px;
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 480px) {
+  .loginsignup-container {
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}

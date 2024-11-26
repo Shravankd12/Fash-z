@@ -1,0 +1,56 @@
+/* Banner Section */
+.shopcategory-banner {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  border-radius: 15px; /* Add rounded corners */
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shopcategory-banner:hover {
+  transform: scale(1.05); /* Subtle zoom effect on hover */
+  box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Index Sort Section */
+.shopcategory-indexSort {
+  display: flex;
+  margin: 0px 170px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #f2f2f2; /* Separate visually from other sections */
+}
+
+.shopcategory-indexSort p {
+  font-size: 18px;
+  color: #333;
+}
+
+.shopcategory-indexSort p span {
+  font-weight: 600;
+  color: #ff4d4d; /* Highlight the count */
+}
+
+/* Product Grid Section */
+.shopcategory-products {
+  margin: 20px 170px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Grid with 3 columns */
+  row-gap: 60px;
+  column-gap: 30px;
+}
+
+.shopcategory-products img {
+  width: 100%; /* Ensure the images fit within their container */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for product images */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shopcategory-products img:hover {
+  transform: scale(1.03); /* Subtle zoom */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
